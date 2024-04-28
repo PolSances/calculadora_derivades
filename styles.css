@@ -26,15 +26,21 @@ button:hover {
 }
 
 
-footer{
-    
-  background-color: #ffffff;
-  position: bottom;
-  color: #000000;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width:     99%;
-  height: 5%;
-  font-size: 22px;
-}
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  @media screen and (max-width: 768px) {
+    footer {
+      font-size: 18px;
+      height: 40px;
+    }
+  }
+  
