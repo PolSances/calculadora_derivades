@@ -25,6 +25,9 @@ button:hover {
     background-color: #0056b3;
 }
 
+#math{
+    font-size: 5vh;
+}
 
 footer {
     background-color: #ffffff;
