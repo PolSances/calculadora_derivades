@@ -8,6 +8,9 @@ function calculateDerivative() {
 
         // Display the result
         document.getElementById('result').textContent = `The derivative of the function ${latexInput} with respect to x is: ${derivativeExpr.toString()}.`;
+        document.getElementById('math').textContent = `$${derivativeExpr.toTex()}$`;
+        
+        MathJax.typeset(["#math"])
     } catch (error) {
         document.getElementById('result').textContent = 'Error calculating the derivative. Make sure to enter a valid function in LaTeX format.';
     }
