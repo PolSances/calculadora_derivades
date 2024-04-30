@@ -19,7 +19,7 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 33%;
+    border-radius: 5%;
 }
 
 button:hover {
